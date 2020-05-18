@@ -16,3 +16,7 @@ Unfortunately, these moderators often censor dissenting opinions, even if their 
 Unreddit reverses this unduly aggressive censorship.
 
 ![Screenshot](doc/screenshot.png)
+
+## Known issues
+
+* Only the English localization is supported. See [#1](https://github.com/pauldraper/unreddit/issues/1) for details.
