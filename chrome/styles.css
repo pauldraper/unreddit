@@ -56,6 +56,11 @@
   border-radius: 0 !important;
 }
 
+/* Night mode */
+[style^="--background:#1A1A1B"] .unreddit-deleted {
+  background-color: #5e0906 !important;
+}
+
 .unreddit-username a {
   font-size: 12px;
   font-weight: 400;
