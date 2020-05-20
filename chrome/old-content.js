@@ -82,8 +82,7 @@ var observer = new MutationObserver(function schedule() {
   }
   timeout = setTimeout(async () => {
     await update();
-    timeout = undefined;
-    schedule();
+    timeout = setTimeout(() => timeout = undefined, 0);
   }, 0);
 });
 observer.observe(document, { childList: true, subtree: true });
